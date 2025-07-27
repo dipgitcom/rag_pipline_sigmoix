@@ -1,0 +1,47 @@
+# Core Dependencies
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+PyMuPDF==1.23.5
+openai==1.3.5
+langchain==0.0.350
+langchain-community==0.0.38
+transformers==4.35.2
+torch==2.1.0
+pandas==2.1.1
+numpy==1.24.3
+tiktoken==0.5.1
+
+# PDF Processing
+tabula-py==2.8.2
+pdfplumber==0.9.0
+camelot-py[cv]==0.10.1
+
+# Evaluation
+rouge-score==0.1.2
+nltk==3.8.1
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.17.0
+
+# Optional: For production deployment
+fastapi==0.104.1
+uvicorn==0.24.0
+redis==5.0.1
+
+#directory structure
+financial_rag/
+├── notebooks/
+│   ├── step1_basic_rag.ipynb
+│   ├── step2_structured_integration.ipynb
+│   └── step3_advanced_optimization.ipynb
+├── src/
+│   ├── preprocessing.py
+│   ├── retrieval.py
+│   ├── generation.py
+│   └── evaluation.py
+├── data/
+│   └── meta_q1_2024.pdf
+├── requirements.txt
+└── README.md
